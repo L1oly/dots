@@ -1,0 +1,81 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit: 0fca93e4544f943d4d7ec8073dba4e47c18ef54b from 2025-09-14 14:31:57 -0500
+    Launched: 20260522_170512
+====================================================================================================
+
+86    |Info:    [ResourceManager] Initializing HID interfaces: Success
+86    |Info:    ------------------------------------------------------
+86    |Info:    |               Start device detection               |
+86    |Info:    ------------------------------------------------------
+89    |Info:    ------------------------------------------------------
+89    |Info:    |             Detecting I2C interfaces               |
+89    |Info:    ------------------------------------------------------
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:21C4 Subsystem: 1043:873A
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:1AED Subsystem: 1043:873A
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:21C4 Subsystem: 1043:873A
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:21C4 Subsystem: 1043:873A
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:43A3 Subsystem: 1043:8694
+89    |Info:    ------------------------------------------------------
+89    |Info:    |               Detecting I2C devices                |
+89    |Info:    ------------------------------------------------------
+474   |Info:    ------------------------------------------------------
+474   |Info:    |            Detecting I2C DIMM modules              |
+474   |Info:    ------------------------------------------------------
+762   |Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+1237  |Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+1679  |Info:    ------------------------------------------------------
+1679  |Info:    |               Detecting I2C PCI devices            |
+1679  |Info:    ------------------------------------------------------
+1681  |Info:    ------------------------------------------------------
+1681  |Info:    |               Detecting HID devices                |
+1681  |Info:    ------------------------------------------------------
+1706  |Info:    [ASUS PRIME B560M-A] Registering RGB controller
+1706  |Info:    ------------------------------------------------------
+1706  |Info:    |            Detecting libusb HID devices            |
+1706  |Info:    ------------------------------------------------------
+1723  |Info:    ------------------------------------------------------
+1723  |Info:    |              Detecting other devices               |
+1723  |Info:    ------------------------------------------------------
+1743  |Info:    [ResourceManager] Calling Post-detection callbacks
+1743  |Info:    ------------------------------------------------------
+1743  |Info:    |                Detection completed                 |
+1743  |Info:    ------------------------------------------------------
+17859 |Info:    [ResourceManager] Initializing HID interfaces: Success
+17859 |Info:    ------------------------------------------------------
+17859 |Info:    |               Start device detection               |
+17859 |Info:    ------------------------------------------------------
+17863 |Info:    ------------------------------------------------------
+17863 |Info:    |             Detecting I2C interfaces               |
+17863 |Info:    ------------------------------------------------------
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:21C4 Subsystem: 1043:873A
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:1AED Subsystem: 1043:873A
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:21C4 Subsystem: 1043:873A
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:21C4 Subsystem: 1043:873A
+17863 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:43A3 Subsystem: 1043:8694
+17863 |Info:    ------------------------------------------------------
+17863 |Info:    |               Detecting I2C devices                |
+17863 |Info:    ------------------------------------------------------
+18247 |Info:    ------------------------------------------------------
+18247 |Info:    |            Detecting I2C DIMM modules              |
+18247 |Info:    ------------------------------------------------------
+18538 |Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+19018 |Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+19464 |Info:    ------------------------------------------------------
+19464 |Info:    |               Detecting I2C PCI devices            |
+19464 |Info:    ------------------------------------------------------
+19465 |Info:    ------------------------------------------------------
+19465 |Info:    |               Detecting HID devices                |
+19465 |Info:    ------------------------------------------------------
+19489 |Info:    [ASUS PRIME B560M-A] Registering RGB controller
+19489 |Info:    ------------------------------------------------------
+19489 |Info:    |            Detecting libusb HID devices            |
+19489 |Info:    ------------------------------------------------------
+19492 |Info:    ------------------------------------------------------
+19492 |Info:    |              Detecting other devices               |
+19492 |Info:    ------------------------------------------------------
+19502 |Info:    [ResourceManager] Calling Post-detection callbacks
+19502 |Info:    ------------------------------------------------------
+19503 |Info:    |                Detection completed                 |
+19503 |Info:    ------------------------------------------------------

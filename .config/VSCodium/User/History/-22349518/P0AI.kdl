@@ -1,0 +1,11 @@
+//     _   _   _ _____ ___    ____ _____  _    ____ _____ 
+//    / \ | | | |_   _/ _ \  / ___|_   _|/ \  |  _ \_   _|
+//   / _ \| | | | | || | | | \___ \ | | / _ \ | |_) || |  
+//  / ___ \ |_| | | || |_| |  ___) || |/ ___ \|  _ < | |  
+// /_/   \_\___/  |_| \___/  |____/ |_/_/   \_\_| \_\|_|  
+                                                        
+
+spawn-at-startup "kitty"
+spawn-at-startup "waywallen --no-ui"
+spawn-at-startup "spawn-at-startup" "kded6"
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri" "KDE_FULL_SESSION=true"

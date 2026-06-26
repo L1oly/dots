@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/l1oly/.config/discord/app-1.0.141/Discord
+Hidden=false
+NoDisplay=false
+Name=Discord
+Icon=/home/l1oly/.config/discord/app-1.0.141/discord.png
+Comment=Text and voice chat for gamers.
+X-GNOME-Autostart-enabled=true

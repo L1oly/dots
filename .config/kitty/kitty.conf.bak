@@ -1,0 +1,5 @@
+shell /usr/bin/fish
+#background_opacity 0.9
+tab_bar_style hidden
+#background #080c09
+#background #10090a

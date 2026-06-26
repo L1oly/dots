@@ -1,0 +1,12 @@
+### Quamachi v0.5.5: External
+
+# SSH GUI clients
+# Usage: <command> [arguments]
+# First valid entry is chosen
+
+# Changes effective upon restart
+
+#gnome-rdp
+putty -ssh -l
+#hotssh -l
+#kdessh -u

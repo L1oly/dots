@@ -1,0 +1,16 @@
+[Global]
+LookAndFeelSet=org.kde.breezedark.desktop
+RefreshedConfig=6.5.3
+
+[TitleBarSpacing]
+TitleBarLeftMargin=4
+TitleBarRightMargin=4
+
+[Windeco]
+ButtonIconStyle=StyleSystemIconTheme
+ButtonShape=ShapeSmallRoundedSquare
+
+[TitleBarOpacity]
+ActiveTitleBarOpacity=100
+InactiveTitleBarOpacity=100
+

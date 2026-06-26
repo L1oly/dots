@@ -1,0 +1,52 @@
+    OpenRGB v0.9+ (git1948)
+    Commit: f67030fcc7b9bf0688a955821a4ad9ac7b3b238e from 2026-05-18 07:30:37 -0500
+    Launched: 20260531_184729
+====================================================================================================
+
+6     |Info:    [ProfileManager] Found file: 21.orp attempting to validate header
+8     |Info:    [ProfileManager] Valid v5 profile found for 21
+272   |Info:    [ResourceManager] Initializing HID interfaces: Success
+295   |Info:    ------------------------------------------------------
+295   |Info:    |               Start device detection               |
+295   |Info:    ------------------------------------------------------
+298   |Info:    ------------------------------------------------------
+298   |Info:    |             Detecting I2C interfaces               |
+298   |Info:    ------------------------------------------------------
+298   |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-3) Device 0000:0000 Subsystem: 0000:0000
+298   |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 5 at 1:00.0
+ (/dev/i2c-1) Device 10DE:21C4 Subsystem: 1043:873A
+298   |Info:    [ResourceManager] Registering I2C interface: NVIDIA GPU I2C adapter (/dev/i2c-4) Device 10DE:1AED Subsystem: 1043:873A
+298   |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 6 at 1:00.0
+ (/dev/i2c-2) Device 10DE:21C4 Subsystem: 1043:873A
+298   |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 3 at 1:00.0
+ (/dev/i2c-0) Device 10DE:21C4 Subsystem: 1043:873A
+298   |Info:    [ResourceManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-5) Device 8086:43A3 Subsystem: 1043:8694
+298   |Info:    ------------------------------------------------------
+298   |Info:    |               Detecting I2C devices                |
+298   |Info:    ------------------------------------------------------
+658   |Info:    ------------------------------------------------------
+658   |Info:    |            Detecting I2C DIMM modules              |
+658   |Info:    ------------------------------------------------------
+946   |Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+1420  |Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+1867  |Info:    ------------------------------------------------------
+1867  |Info:    |               Detecting I2C PCI devices            |
+1867  |Info:    ------------------------------------------------------
+1868  |Info:    ------------------------------------------------------
+1868  |Info:    |               Detecting HID devices                |
+1868  |Info:    ------------------------------------------------------
+1887  |Info:    [KLM] Created new Seventy Five percent ANSI QWERTY with 6 rows and 14 columns containing 74 keys
+1887  |Info:    [AULA F75] Registering RGB controller
+1961  |Info:    [ASUS PRIME B560M-A] Registering RGB controller
+1961  |Info:    ------------------------------------------------------
+1961  |Info:    |            Detecting libusb HID devices            |
+1961  |Info:    ------------------------------------------------------
+1973  |Info:    ------------------------------------------------------
+1974  |Info:    |              Detecting other devices               |
+1974  |Info:    ------------------------------------------------------
+1988  |Info:    [ResourceManager] Calling Post-detection callbacks
+1988  |Info:    ------------------------------------------------------
+1988  |Info:    |                Detection completed                 |
+1988  |Info:    ------------------------------------------------------
+1988  |Info:    [ProfileManager] Profile loading: Succeeded for AULA F75 @ HID: /dev/hidraw3
+1988  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS PRIME B560M-A @ HID: /dev/hidraw0

@@ -1,0 +1,13 @@
+[Applications][discord]
+Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
+[Applications][org.telegram.desktop]
+ShowBadges=false
+ShowInHistory=false
+ShowPopups=false
+
+[DoNotDisturb]
+NotificationSoundsMuted=true

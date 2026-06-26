@@ -1,0 +1,98 @@
+[dark]
+# Material 3 Design Tokens
+material_color_primary = "{{colors.dark.mPrimary}}"
+material_color_on_primary = "{{colors.dark.mOnPrimary}}"
+material_color_secondary = "{{colors.dark.mSecondary}}"
+material_color_on_secondary = "{{colors.dark.mOnSecondary}}"
+material_color_tertiary = "{{colors.dark.mTertiary}}"
+material_color_on_tertiary = "{{colors.dark.mOnTertiary}}"
+material_color_error = "{{colors.dark.mError}}"
+material_color_on_error = "{{colors.dark.mOnError}}"
+material_color_surface = "{{colors.dark.mSurface}}"
+material_color_on_surface = "{{colors.dark.mOnSurface}}"
+material_color_surface_variant = "{{colors.dark.mSurfaceVariant}}"
+material_color_on_surface_variant = "{{colors.dark.mOnSurfaceVariant}}"
+material_color_outline = "{{colors.dark.mOutline}}"
+material_color_shadow = "{{colors.dark.mShadow}}"
+
+# Custom App Tokens (Hover)
+custom_color_hover = "{{colors.dark.mHover}}"
+custom_color_on_hover = "{{colors.dark.mOnHover}}"
+
+# Terminal Configuration
+terminal_background = "{{colors.dark.terminal.background}}"
+terminal_foreground = "{{colors.dark.terminal.foreground}}"
+terminal_cursor = "{{colors.dark.terminal.cursor}}"
+terminal_cursor_text = "{{colors.dark.terminal.cursorText}}"
+terminal_selection_bg = "{{colors.dark.terminal.selectionBg}}"
+terminal_selection_fg = "{{colors.dark.terminal.selectionFg}}"
+
+# Terminal Normal Colors
+terminal_ansi_black = "{{colors.dark.terminal.normal.black}}"
+terminal_ansi_red = "{{colors.dark.terminal.normal.red}}"
+terminal_ansi_green = "{{colors.dark.terminal.normal.green}}"
+terminal_ansi_yellow = "{{colors.dark.terminal.normal.yellow}}"
+terminal_ansi_blue = "{{colors.dark.terminal.normal.blue}}"
+terminal_ansi_magenta = "{{colors.dark.terminal.normal.magenta}}"
+terminal_ansi_cyan = "{{colors.dark.terminal.normal.cyan}}"
+terminal_ansi_white = "{{colors.dark.terminal.normal.white}}"
+
+# Terminal Bright Colors
+terminal_ansi_bright_black = "{{colors.dark.terminal.bright.black}}"
+terminal_ansi_bright_red = "{{colors.dark.terminal.bright.red}}"
+terminal_ansi_bright_green = "{{colors.dark.terminal.bright.green}}"
+terminal_ansi_bright_yellow = "{{colors.dark.terminal.bright.yellow}}"
+terminal_ansi_bright_blue = "{{colors.dark.terminal.bright.blue}}"
+terminal_ansi_bright_magenta = "{{colors.dark.terminal.bright.magenta}}"
+terminal_ansi_bright_cyan = "{{colors.dark.terminal.bright.cyan}}"
+terminal_ansi_bright_white = "{{colors.dark.terminal.bright.white}}"
+
+
+[light]
+# Material 3 Design Tokens
+material_color_primary = "{{colors.light.mPrimary}}"
+material_color_on_primary = "{{colors.light.mOnPrimary}}"
+material_color_secondary = "{{colors.light.mSecondary}}"
+material_color_on_secondary = "{{colors.light.mOnSecondary}}"
+material_color_tertiary = "{{colors.light.mTertiary}}"
+material_color_on_tertiary = "{{colors.light.mOnTertiary}}"
+material_color_error = "{{colors.light.mError}}"
+material_color_on_error = "{{colors.light.mOnError}}"
+material_color_surface = "{{colors.light.mSurface}}"
+material_color_on_surface = "{{colors.light.mOnSurface}}"
+material_color_surface_variant = "{{colors.light.mSurfaceVariant}}"
+material_color_on_surface_variant = "{{colors.light.mOnSurfaceVariant}}"
+material_color_outline = "{{colors.light.mOutline}}"
+material_color_shadow = "{{colors.light.mShadow}}"
+
+# Custom App Tokens (Hover)
+custom_color_hover = "{{colors.light.mHover}}"
+custom_color_on_hover = "{{colors.light.mOnHover}}"
+
+# Terminal Configuration
+terminal_background = "{{colors.light.terminal.background}}"
+terminal_foreground = "{{colors.light.terminal.foreground}}"
+terminal_cursor = "{{colors.light.terminal.cursor}}"
+terminal_cursor_text = "{{colors.light.terminal.cursorText}}"
+terminal_selection_bg = "{{colors.light.terminal.selectionBg}}"
+terminal_selection_fg = "{{colors.light.terminal.selectionFg}}"
+
+# Terminal Normal Colors
+terminal_ansi_black = "{{colors.light.terminal.normal.black}}"
+terminal_ansi_red = "{{colors.light.terminal.normal.red}}"
+terminal_ansi_green = "{{colors.light.terminal.normal.green}}"
+terminal_ansi_yellow = "{{colors.light.terminal.normal.yellow}}"
+terminal_ansi_blue = "{{colors.light.terminal.normal.blue}}"
+terminal_ansi_magenta = "{{colors.light.terminal.normal.magenta}}"
+terminal_ansi_cyan = "{{colors.light.terminal.normal.cyan}}"
+terminal_ansi_white = "{{colors.light.terminal.normal.white}}"
+
+# Terminal Bright Colors
+terminal_ansi_bright_black = "{{colors.light.terminal.bright.black}}"
+terminal_ansi_bright_red = "{{colors.light.terminal.bright.red}}"
+terminal_ansi_bright_green = "{{colors.light.terminal.bright.green}}"
+terminal_ansi_bright_yellow = "{{colors.light.terminal.bright.yellow}}"
+terminal_ansi_bright_blue = "{{colors.light.terminal.bright.blue}}"
+terminal_ansi_bright_magenta = "{{colors.light.terminal.bright.magenta}}"
+terminal_ansi_bright_cyan = "{{colors.light.terminal.bright.cyan}}"
+terminal_ansi_bright_white = "{{colors.light.terminal.bright.white}}"

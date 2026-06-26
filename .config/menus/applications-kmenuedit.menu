@@ -1,0 +1,75 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+ <Menu>
+  <Name>Graphics</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>gimp.desktop</Filename>
+   <Filename>org.waywallen.waywallen.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include/>
+  <Exclude>
+   <Filename>Pulsar.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Include/>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>appimagelaunchersettings.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Menuname>ScreenSavers</Menuname>
+   <Filename>nm-connection-editor.desktop</Filename>
+   <Filename>org.kde.plasma-systemmonitor.desktop</Filename>
+   <Filename>org.kde.drkonqi.coredump.gui.desktop</Filename>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>org.kde.kmenuedit.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>org.kde.discover.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>lstopo.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>kitty.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>Pulsar-2.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>Pulsar.desktop</Filename>
+   <Filename>Pulsar-2.desktop</Filename>
+   <Filename>app.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Internet</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>bssh.desktop</Filename>
+   <Filename>bvnc.desktop</Filename>
+   <Filename>chromium.desktop</Filename>
+   <Filename>discord.desktop</Filename>
+   <Filename>org.qbittorrent.qBittorrent.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>org.telegram.desktop.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>app.desktop</Filename>
+  </Exclude>
+ </Menu>
+</Menu>

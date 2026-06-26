@@ -1,0 +1,94 @@
+{
+    "dark": {
+        "mPrimary": "{{colors.dark.primary}}",
+        "mOnPrimary": "{{colors.colors.dark.on_primary}}",
+        "mSecondary": "{{colors.dark.secondary}}",
+        "mOnSecondary": "{{colors.dark.on_secondary}}",
+        "mTertiary": "{{colors.dark.tertiary}}",
+        "mOnTertiary": "{{colors.dark.on_tertiary}}",
+        "mError": "{{colors.dark.error}}",
+        "mOnError": "{{colors.dark.on_error}}",
+        "mSurface": "{{colors.dark.surface}}",
+        "mOnSurface": "{{colors.dark.on_surface}}",
+        "mHover": "{{colors.dark.primary}}",
+        "mOnHover": "{{colors.dark.on_primary}}",
+        "mSurfaceVariant": "{{colors.dark.surface_variant}}",
+        "mOnSurfaceVariant": "{{colors.dark.on_surface_variant}}",
+        "mOutline": "{{colors.dark.outline}}",
+        "mShadow": "{{colors.dark.shadow}}",
+        "terminal": {
+            "background": "{{colors.dark.surface_container}}",
+            "foreground": "{{colors.dark.on_surface}}",
+            "cursor": "{{colors.dark.primary}}",
+            "cursorText": "{{colors.dark.surface_container}}",
+            "selectionBg": "{{colors.dark.primary_container}}",
+            "selectionFg": "{{colors.dark.on_primary_container}}",
+            "normal": {
+                "black": "{{colors.dark.surface_container_high}}",
+                "red": "{{colors.dark.error}}",
+                "green": "{{colors.dark.tertiary}}",
+                "yellow": "{{colors.dark.inverse_primary}}",
+                "blue": "{{colors.dark.primary}}",
+                "magenta": "{{colors.dark.secondary}}",
+                "cyan": "{{colors.dark.outline_variant}}",
+                "white": "{{colors.dark.on_surface}}"
+            },
+            "bright": {
+                "black": "{{colors.dark.outline}}",
+                "red": "{{colors.dark.error_container}}",
+                "green": "{{colors.dark.tertiary_container}}",
+                "yellow": "{{colors.dark.scrim}}",
+                "blue": "{{colors.dark.secondary_container}}",
+                "magenta": "{{colors.dark.primary_container}}",
+                "cyan": "{{colors.dark.outline_variant}}",
+                "white": "{{colors.dark.surface_dim}}"
+            }
+        }
+    },
+    "light": {
+        "mPrimary": "{{colors.light.primary}}",
+        "mOnPrimary": "{{colors.light.on_primary}}",
+        "mSecondary": "{{colors.light.secondary}}",
+        "mOnSecondary": "{{colors.light.on_secondary}}",
+        "mTertiary": "{{colors.light.tertiary}}",
+        "mOnTertiary": "{{colors.light.on_tertiary}}",
+        "mError": "{{colors.light.error}}",
+        "mOnError": "{{colors.light.on_error}}",
+        "mSurface": "{{colors.light.surface}}",
+        "mOnSurface": "{{colors.light.on_surface}}",
+        "mHover": "{{colors.light.primary}}",
+        "mOnHover": "{{colors.light.on_primary}}",
+        "mSurfaceVariant": "{{colors.light.surface_variant}}",
+        "mOnSurfaceVariant": "{{colors.light.on_surface_variant}}",
+        "mOutline": "{{colors.light.outline}}",
+        "mShadow": "{{colors.light.shadow}}",
+        "terminal": {
+            "background": "{{colors.light.surface_container}}",
+            "foreground": "{{colors.light.on_surface}}",
+            "cursor": "{{colors.light.primary}}",
+            "cursorText": "{{colors.light.surface_container}}",
+            "selectionBg": "{{colors.light.primary_container}}",
+            "selectionFg": "{{colors.light.on_primary_container}}",
+            "normal": {
+                "black": "{{colors.light.surface_container_high}}",
+                "red": "{{colors.light.error}}",
+                "green": "{{colors.light.tertiary}}",
+                "yellow": "{{colors.light.inverse_primary}}",
+                "blue": "{{colors.light.primary}}",
+                "magenta": "{{colors.light.secondary}}",
+                "cyan": "{{colors.light.outline_variant}}",
+                "white": "{{colors.light.on_surface}}"
+            },
+            "bright": {
+                "black": "{{colors.light.outline}}",
+                "red": "{{colors.light.error_container}}",
+                "green": "{{colors.light.tertiary_container}}",
+                "yellow": "{{colors.light.scrim}}",
+                "blue": "{{colors.light.secondary_container}}",
+                "magenta": "{{colors.light.primary_container}}",
+                "cyan": "{{colors.light.outline_variant}}",
+                "white": "{{colors.light.surface_dim}}"
+            }
+        }
+    }
+}

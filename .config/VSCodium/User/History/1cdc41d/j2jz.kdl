@@ -1,0 +1,57 @@
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.9
+}
+
+window-rule {
+    match app-id=r#".*"#
+
+    exclude title="YouTube"
+    exclude title="Twitch"
+    exclude app-id="steam_app"
+    exclude app-id="cs2"
+
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 2
+    }
+}
+
+
+window-rule {
+    match app-id="cs2"
+//    exclude app-id="steam"
+    match app-id="steam_app"
+    open-fullscreen true
+}
+window-rule {
+    match app-id="org.kde.kcalc"
+    open-floating true
+    default-floating-position x=1467 y=61 relative-to="top-left"
+    default-column-width { fixed 415; }
+    default-window-height { fixed 415; }
+}
+window-rule {
+    // match title="^(Open|Choose|Save)(.*)$"
+    match app-id="(xdg-desktop-portal)(.*)"
+    match app-id="filepicker"
+    match app-id="org.freedesktop.impl.portal.desktop.kde"
+    default-column-width { proportion 0.5; }
+    default-window-height { proportion 0.8; }
+    open-floating true
+    open-fullscreen false
+}
+window-rule {
+    match app-id="hyprland-share-picker"
+    default-column-width { proportion 0.2; }
+    default-window-height { proportion 0.3; }
+    open-floating true
+    open-fullscreen false
+}

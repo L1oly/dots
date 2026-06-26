@@ -1,0 +1,77 @@
+[global]
+last_wallpaper = "4859"
+queue_mode = "sequential"
+rotation_secs = 0
+audio_fade_ms = 500
+wallpaper_filter_json = '{"filters":[],"filter_logics":[]}'
+wallpaper_sorts = []
+wallpaper_skip_types = []
+wallpaper_filter_tags = []
+wallpaper_skip_content_ratings = []
+
+[global.layout]
+fillmode = "preserve_aspect_crop"
+align = "center"
+rotation = "normal"
+
+[global.layout.location]
+x = 50
+y = 50
+
+[plugin.weweb-renderer]
+render_node = ""
+resolution = "2"
+fps = "60"
+enable_audio = "true"
+shared_texture_enabled = "true"
+volume = "100"
+remote_debugging_port = "0"
+
+[plugin.wescene-renderer]
+enable_audio = "true"
+fps = "30"
+custom_extent = "1080"
+volume = "100"
+resolution = "2"
+hwdec = "auto"
+render_node = ""
+msaa = "1"
+
+[plugin.waywallen-image]
+render_node = ""
+resolution = "0"
+fps = "30"
+
+[plugin.waywallen-video]
+loop_file = "inf"
+volume = "100"
+hwdec = "auto"
+resolution = "0"
+render_node = ""
+enable_audio = "true"
+fps = "30"
+
+[display.waywallen-layer-shell-46]
+last_wallpaper = "3736338233"
+
+[display.waywallen-layer-shell-48]
+last_wallpaper = "3582118838"
+
+[display.waywallen-layer-shell-47]
+last_wallpaper = "3582118838"
+
+[display.layer-2282d5cfc9a5523a598234914ab7e011]
+fillmode = "preserve_aspect_crop"
+rotation = "normal"
+last_wallpaper = "4859"
+
+[display.5c6400d2-2a8a-48d4-965c-7927f3105169]
+last_wallpaper = "3369512129"
+
+[display.DP-1]
+fillmode = "preserve_aspect_crop"
+rotation = "normal"
+last_wallpaper = "3360"
+
+[display.98e07e66-8143-4f86-bd2d-94707546e3ed]
+last_wallpaper = "3582118838"

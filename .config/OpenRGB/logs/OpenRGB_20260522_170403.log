@@ -1,0 +1,81 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260522_170403
+====================================================================================================
+
+79    |Info:    [ResourceManager] Initializing HID interfaces: Success
+79    |Info:    ------------------------------------------------------
+79    |Info:    |               Start device detection               |
+79    |Info:    ------------------------------------------------------
+85    |Info:    ------------------------------------------------------
+85    |Info:    |             Detecting I2C interfaces               |
+85    |Info:    ------------------------------------------------------
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:21C4 Subsystem: 1043:873A
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:1AED Subsystem: 1043:873A
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:21C4 Subsystem: 1043:873A
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:21C4 Subsystem: 1043:873A
+85    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:43A3 Subsystem: 1043:8694
+85    |Info:    ------------------------------------------------------
+85    |Info:    |               Detecting I2C devices                |
+85    |Info:    ------------------------------------------------------
+472   |Info:    ------------------------------------------------------
+472   |Info:    |            Detecting I2C DIMM modules              |
+472   |Info:    ------------------------------------------------------
+762   |Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+1242  |Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+1713  |Info:    ------------------------------------------------------
+1713  |Info:    |               Detecting I2C PCI devices            |
+1713  |Info:    ------------------------------------------------------
+1714  |Info:    ------------------------------------------------------
+1714  |Info:    |               Detecting HID devices                |
+1714  |Info:    ------------------------------------------------------
+1789  |Info:    [ASUS PRIME B560M-A] Registering RGB controller
+1789  |Info:    ------------------------------------------------------
+1789  |Info:    |            Detecting libusb HID devices            |
+1789  |Info:    ------------------------------------------------------
+1800  |Info:    ------------------------------------------------------
+1800  |Info:    |              Detecting other devices               |
+1800  |Info:    ------------------------------------------------------
+1837  |Info:    [ResourceManager] Calling Post-detection callbacks
+1837  |Info:    ------------------------------------------------------
+1837  |Info:    |                Detection completed                 |
+1837  |Info:    ------------------------------------------------------
+638799|Info:    [ResourceManager] Initializing HID interfaces: Success
+638799|Info:    ------------------------------------------------------
+638799|Info:    |               Start device detection               |
+638799|Info:    ------------------------------------------------------
+638803|Info:    ------------------------------------------------------
+638803|Info:    |             Detecting I2C interfaces               |
+638803|Info:    ------------------------------------------------------
+638803|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+638803|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:21C4 Subsystem: 1043:873A
+638804|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:1AED Subsystem: 1043:873A
+638804|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:21C4 Subsystem: 1043:873A
+638804|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:21C4 Subsystem: 1043:873A
+638804|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 8086:43A3 Subsystem: 1043:8694
+638804|Info:    ------------------------------------------------------
+638804|Info:    |               Detecting I2C devices                |
+638804|Info:    ------------------------------------------------------
+639183|Info:    ------------------------------------------------------
+639183|Info:    |            Detecting I2C DIMM modules              |
+639183|Info:    ------------------------------------------------------
+639474|Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+639951|Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+640393|Info:    ------------------------------------------------------
+640393|Info:    |               Detecting I2C PCI devices            |
+640393|Info:    ------------------------------------------------------
+640395|Info:    ------------------------------------------------------
+640395|Info:    |               Detecting HID devices                |
+640395|Info:    ------------------------------------------------------
+640468|Info:    [ASUS PRIME B560M-A] Registering RGB controller
+640468|Info:    ------------------------------------------------------
+640468|Info:    |            Detecting libusb HID devices            |
+640468|Info:    ------------------------------------------------------
+640477|Info:    ------------------------------------------------------
+640477|Info:    |              Detecting other devices               |
+640477|Info:    ------------------------------------------------------
+640484|Info:    [ResourceManager] Calling Post-detection callbacks
+640484|Info:    ------------------------------------------------------
+640484|Info:    |                Detection completed                 |
+640484|Info:    ------------------------------------------------------

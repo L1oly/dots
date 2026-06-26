@@ -1,0 +1,15 @@
+[EmbedSettings]
+embed-application/json=false
+embed-application/octet-stream=false
+embed-application/pdf=false
+embed-application/x-plasma=false
+embed-application/x-zerosize=false
+embed-application/xml=false
+embed-application/zip=false
+embed-image/gif=false
+embed-image/png=false
+embed-text/plain=false
+embed-text/x-csrc=false
+embed-x-scheme-handler/geo=false
+embed-x-scheme-handler/http=false
+embed-x-scheme-handler/https=false

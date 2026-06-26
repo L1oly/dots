@@ -1,0 +1,134 @@
+
+# OmniGlyph Configuration
+#
+# Location:
+# ~/.config/omniglyph/config.toml
+#
+# Restart OmniGlyph after changing this file.
+#
+# ---------------------------------------------------------------------------
+# Shortcut Syntax
+# ---------------------------------------------------------------------------
+#
+# A shortcut is composed of zero or more modifiers followed by a key:
+#
+#   ctrl+q
+#   ctrl+shift+h
+#   alt+s
+#   super+space
+#   ctrl+alt+delete
+#
+# Modifiers:
+#   ctrl, shift, alt, super
+#
+# Navigation Keys:
+#   up, down, left, right
+#   home, end
+#   pageup, pagedown
+#
+# Editing Keys:
+#   return, enter
+#   escape, tab, space
+#   backspace, delete, insert
+#
+# Lock Keys:
+#   capslock, numlock, scrolllock
+#
+# Function Keys:
+#   f1 - f12
+#
+# Miscellaneous:
+#   menu, printscreen, pause
+#
+# Symbol Keys:
+#   slash (/)
+#   backslash (\\)
+#   comma (,)
+#   period (.)
+#   dot (.)
+#   semicolon (;)
+#   apostrophe (')
+#   quote (")
+#   minus (-)
+#   equal (=)
+#   plus (+)
+#   grave (`)
+#   backtick (`)
+#
+# Bracket Keys:
+#   leftbracket ([)
+#   rightbracket (])
+#   leftbrace ({)
+#   rightbrace (})
+#   leftparen (()
+#   rightparen ())
+#
+# Keypad Keys:
+#   kp_enter
+#   kp_add
+#   kp_subtract
+#   kp_multiply
+#   kp_divide
+#   kp_decimal
+#
+# Single Character Keys:
+#   a-z
+#   A-Z
+#   0-9
+#   /
+#   \\
+#   [
+#   ]
+#   .
+#   ,
+#   ;
+#   '
+#   -
+#   =
+#
+# Missing values automatically fall back to OmniGlyph defaults.
+
+[shortcuts]
+
+# General
+quit = "ctrl+q"
+focus_search = "slash"
+history = "ctrl+h"
+reload_collection = "ctrl+r"
+
+# Navigation
+next_category = "l"
+prev_category = "h"
+
+# Scrolling
+scroll_down = "j"
+scroll_up = "k"
+
+# Sidebar
+toggle_sidebar = "ctrl+b"
+sidebar_next = "j"
+sidebar_prev = "k"
+sidebar_close = "return"
+
+# Actions
+copy_first = "return"
+
+[behavior]
+
+# Window behavior
+esc_action = "hide"        # hide | quit
+theme = "system"           # system | light | dark
+close_on_copy = true
+show_notifications = true
+
+# Layout
+window_width = 450
+window_height = 500
+sidebar_width = 180
+grid_columns = 13
+
+# Performance
+batch_size = 30
+
+# Scrolling
+scroll_step = 120

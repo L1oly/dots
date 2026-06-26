@@ -1,0 +1,31 @@
+/* Імпорт динамічних кольорів Matugen */
+@import "colors.css";
+
+/* Базові стилі для всієї панелі */
+window#waybar {
+    background-color: transparent; /* Робимо фон вікна прозорим */
+    color: @on_surface;            /* Використовуємо колір тексту */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Приклад стилізації робочих столів */
+#workspaces button {
+    padding: 0 5px;
+    background-color: @surface;
+    color: @on_surface;
+    border-radius: 5px;
+}
+
+#workspaces button.active {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+/* Приклад стилізації окремого модуля (наприклад, годинника) */
+#clock {
+    background-color: @primary_container;
+    color: @on_primary_container;
+    padding: 0 10px;
+    border-radius: 8px;
+}

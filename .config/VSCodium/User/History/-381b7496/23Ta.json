@@ -1,0 +1,98 @@
+[dark]
+# Material 3 Design Tokens
+material_color_primary = "{{primary.default.hex}}"
+material_color_on_primary = "{{on_primary.default.hex}}"
+material_color_secondary = "{{secondary.default.hex}}"
+material_color_on_secondary = "{{on_secondary.default.hex}}"
+material_color_tertiary = "{{tertiary.default.hex}}"
+material_color_on_tertiary = "{{on_tertiary.default.hex}}"
+material_color_error = "{{error.default.hex}}"
+material_color_on_error = "{{on_error.default.hex}}"
+material_color_surface = "{{surface.default.hex}}"
+material_color_on_surface = "{{on_surface.default.hex}}"
+material_color_surface_variant = "{{surface_variant.default.hex}}"
+material_color_on_surface_variant = "{{on_surface_variant.default.hex}}"
+material_color_outline = "{{outline.default.hex}}"
+material_color_shadow = "{{shadow.default.hex}}"
+
+# Custom App Tokens (Mapping closest equivalents)
+custom_color_hover = "{{primary.default.hex}}"
+custom_color_on_hover = "{{on_primary.default.hex}}"
+
+# Terminal Configuration
+terminal_background = "{{surface_container.default.hex}}"
+terminal_foreground = "{{on_surface.default.hex}}"
+terminal_cursor = "{{primary.default.hex}}"
+terminal_cursor_text = "{{surface_container.default.hex}}"
+terminal_selection_bg = "{{primary_container.default.hex}}"
+terminal_selection_fg = "{{on_primary_container.default.hex}}"
+
+# Terminal Normal Colors (ANSI 0-7)
+terminal_ansi_black = "{{surface_container_high.default.hex}}"
+terminal_ansi_red = "{{error.default.hex}}"
+terminal_ansi_green = "{{tertiary.default.hex}}"
+terminal_ansi_yellow = "{{inverse_primary.default.hex}}"
+terminal_ansi_blue = "{{primary.default.hex}}"
+terminal_ansi_magenta = "{{secondary.default.hex}}"
+terminal_ansi_cyan = "{{outline_variant.default.hex}}"
+terminal_ansi_white = "{{on_surface.default.hex}}"
+
+# Terminal Bright Colors (ANSI 8-15)
+terminal_ansi_bright_black = "{{outline.default.hex}}"
+terminal_ansi_bright_red = "{{error_container.default.hex}}"
+terminal_ansi_bright_green = "{{tertiary_container.default.hex}}"
+terminal_ansi_bright_yellow = "{{scrim.default.hex}}"
+terminal_ansi_bright_blue = "{{secondary_container.default.hex}}"
+terminal_ansi_bright_magenta = "{{primary_container.default.hex}}"
+terminal_ansi_bright_cyan = "{{outline_variant.default.hex}}"
+terminal_ansi_bright_white = "{{surface_dim.default.hex}}"
+
+
+[light]
+# Material 3 Design Tokens
+material_color_primary = "{{primary.light.hex}}"
+material_color_on_primary = "{{on_primary.light.hex}}"
+material_color_secondary = "{{secondary.light.hex}}"
+material_color_on_secondary = "{{on_secondary.light.hex}}"
+material_color_tertiary = "{{tertiary.light.hex}}"
+material_color_on_tertiary = "{{on_tertiary.light.hex}}"
+material_color_error = "{{error.light.hex}}"
+material_color_on_error = "{{on_error.light.hex}}"
+material_color_surface = "{{surface.light.hex}}"
+material_color_on_surface = "{{on_surface.light.hex}}"
+material_color_surface_variant = "{{surface_variant.light.hex}}"
+material_color_on_surface_variant = "{{on_surface_variant.light.hex}}"
+material_color_outline = "{{outline.light.hex}}"
+material_color_shadow = "{{shadow.light.hex}}"
+
+# Custom App Tokens
+custom_color_hover = "{{primary.light.hex}}"
+custom_color_on_hover = "{{on_primary.light.hex}}"
+
+# Terminal Configuration
+terminal_background = "{{surface_container.light.hex}}"
+terminal_foreground = "{{on_surface.light.hex}}"
+terminal_cursor = "{{primary.light.hex}}"
+terminal_cursor_text = "{{surface_container.light.hex}}"
+terminal_selection_bg = "{{primary_container.light.hex}}"
+terminal_selection_fg = "{{on_primary_container.light.hex}}"
+
+# Terminal Normal Colors (ANSI 0-7)
+terminal_ansi_black = "{{surface_container_high.light.hex}}"
+terminal_ansi_red = "{{error.light.hex}}"
+terminal_ansi_green = "{{tertiary.light.hex}}"
+terminal_ansi_yellow = "{{inverse_primary.light.hex}}"
+terminal_ansi_blue = "{{primary.light.hex}}"
+terminal_ansi_magenta = "{{secondary.light.hex}}"
+terminal_ansi_cyan = "{{outline_variant.light.hex}}"
+terminal_ansi_white = "{{on_surface.light.hex}}"
+
+# Terminal Bright Colors (ANSI 8-15)
+terminal_ansi_bright_black = "{{outline.light.hex}}"
+terminal_ansi_bright_red = "{{error_container.light.hex}}"
+terminal_ansi_bright_green = "{{tertiary_container.light.hex}}"
+terminal_ansi_bright_yellow = "{{scrim.light.hex}}"
+terminal_ansi_bright_blue = "{{secondary_container.light.hex}}"
+terminal_ansi_bright_magenta = "{{primary_container.light.hex}}"
+terminal_ansi_bright_cyan = "{{outline_variant.light.hex}}"
+terminal_ansi_bright_white = "{{surface_dim.light.hex}}"

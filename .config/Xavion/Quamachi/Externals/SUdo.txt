@@ -1,0 +1,11 @@
+### Quamachi v0.5.5: External
+
+# SUdo GUI clients
+# Usage: <command> [arguments]
+# First valid entry is chosen
+
+# Changes effective upon restart
+
+kdesudo
+gksudo
+#empower

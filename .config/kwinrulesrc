@@ -1,0 +1,114 @@
+[013745f8-539f-405a-a9e9-a9393f3a8e3f]
+Description=Youtube
+fullscreen=true
+fullscreenrule=1
+opacityactiverule=2
+title=YouTube
+titlematch=2
+types=1
+wmclass=chromium
+wmclassmatch=1
+
+[08602cee-f8fc-4218-8b3a-a284b341d2d6]
+Description=Параметри вікна для kitty
+opacityactiverule=2
+opacityinactiverule=2
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[1905b8d9-cf77-4f17-833d-8f55396c7e8b]
+Description=all
+opacityactive=90
+opacityactiverule=2
+opacityinactive=90
+opacityinactiverule=2
+
+[58412309-342a-44b6-acea-83f6b8ad6c3a]
+Description=Картинка в картинці
+above=true
+aboverule=2
+opacityactiverule=2
+opacityinactiverule=2
+title=Картинка в картинці
+titlematch=1
+wmclass=chromium
+wmclassmatch=1
+
+[71abb2cd-0dd7-4164-9595-b60b7ea913b7]
+Description=Параметри для Hollow Knight Silksong
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=Hollow Knight Silksong
+wmclassmatch=3
+
+[8d9e0d42-9a4e-4cd8-8758-be60316a9590]
+Description=Параметри для SlimeRancher.x86_64
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=SlimeRancher.x86_64
+wmclassmatch=1
+
+[9fbc0157-00b7-45d2-8b0b-c7214df61dd9]
+Description=Параметри вікна для steam_app_431960
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=2
+opacityactiverule=2
+opacityinactiverule=2
+title=Wallpaper Pop-out
+titlematch=1
+types=1
+wmclass=steam_app_431960
+wmclassmatch=1
+
+[General]
+count=13
+rules=08602cee-f8fc-4218-8b3a-a284b341d2d6,baa5cada-9921-4d4b-8d8d-15ec3b837455,f3e7eaba-6db9-421d-9f5b-e72b4dfbacfb,8d9e0d42-9a4e-4cd8-8758-be60316a9590,71abb2cd-0dd7-4164-9595-b60b7ea913b7,9fbc0157-00b7-45d2-8b0b-c7214df61dd9,58412309-342a-44b6-acea-83f6b8ad6c3a,f9d63e8c-f2fa-4562-868b-f819d97e181c,d871c367-60d9-4787-94d5-5eec476fe07d,ada70ba3-df33-463a-aca0-4bd7e6e8e870,013745f8-539f-405a-a9e9-a9393f3a8e3f,ee1d7edb-17fd-4ac1-8517-94068928607c,1905b8d9-cf77-4f17-833d-8f55396c7e8b
+
+[ada70ba3-df33-463a-aca0-4bd7e6e8e870]
+Description=qimgv
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=qimgv
+wmclassmatch=1
+
+[baa5cada-9921-4d4b-8d8d-15ec3b837455]
+Description=Параметри для cs2
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=cs2
+wmclassmatch=1
+
+[d871c367-60d9-4787-94d5-5eec476fe07d]
+Description=mpv
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=mpv
+wmclassmatch=1
+
+[ee1d7edb-17fd-4ac1-8517-94068928607c]
+Description=steam games
+opacityactiverule=2
+opacityinactiverule=2
+types=1
+wmclass=steam_app
+wmclasscomplete=true
+wmclassmatch=2
+
+[f3e7eaba-6db9-421d-9f5b-e72b4dfbacfb]
+Description=Параметри вікна для org.kde.kcalc
+above=true
+aboverule=2
+title=Калькулятор
+types=1
+wmclass=kcalc org.kde.kcalc
+wmclasscomplete=true
+wmclassmatch=1
+
+[f9d63e8c-f2fa-4562-868b-f819d97e181c]
+Description=Minecraft
+opacityactiverule=2
+opacityinactiverule=2
+wmclass=Minecraft
+wmclassmatch=2

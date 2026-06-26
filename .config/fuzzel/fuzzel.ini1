@@ -1,0 +1,47 @@
+[colors]
+# Base background color of your Qt theme
+background=221716e6
+
+# Primary text color
+text=f9e0dde6
+
+# Text inside the search bar matching user query
+match=bca6a4e6
+
+# Selection bar background color
+selection=f9b6b0e6
+
+# Selected item text color
+selection-text=61332fe6
+
+# Selected item match highlights
+selection-match=61332fe6
+
+# Border color around the Fuzzel popup
+border=f9b6b0e6
+
+# Input cursor / character counter color
+counter=f9b6b0e6
+
+#cat ~/.config/kdeglobals | grep -E "BackgroundNormal|ForegroundNormal|HoverBackground"
+
+#BackgroundNormal=#281d1f
+#ForegroundNormal= # Primary text color
+#BackgroundNormal= # Base background color of your Qt theme
+#ForegroundNormal=#baa6a9
+#BackgroundNormal=#10090b
+#ForegroundNormal= # Text inside the search bar matching user query
+#BackgroundNormal=#10090b
+#ForegroundNormal=#baa6a9
+#BackgroundNormal= # Selection bar background color # Border color around the Fuzzel popup # Input cursor / character counter color
+#ForegroundNormal= # Selected item text color # Selected item match highlights
+#BackgroundNormal=#211719
+#ForegroundNormal=#f7e0e3
+#BackgroundNormal=#10090b
+#ForegroundNormal=#f7e0e3
+#BackgroundNormal=#211719
+#ForegroundNormal=#baa6a9
+
+#До всіх в кінці добавити ff для не прозорості
+
+#background=211719(колір)ff(значення прозорості)

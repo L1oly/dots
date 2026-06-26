@@ -1,0 +1,25 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "colors": [
+            16764798,
+            16419751,
+            15547004,
+            15547004,
+            16419751,
+            16764798
+        ],
+        "direction": 0,
+        "height": 100,
+        "spread": 100,
+        "width": 100
+    },
+    "EffectClassName": "CustomGradientWave",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 1,
+    "Speed": 31,
+    "Temperature": 0,
+    "Tint": 0
+}

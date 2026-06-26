@@ -1,0 +1,4 @@
+[general]
+fullscreen = true
+#auto-copy = true
+output-filename = "~/Картинки/Знімки вікон/%Y.%m.%d_%H.%M.%S.png"

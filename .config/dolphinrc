@@ -1,0 +1,31 @@
+MenuBar=Disabled
+
+[ColorScheme]
+colorScheme=
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowOpenInNewWindow=false
+
+[General]
+Version=202
+ViewPropsTimestamp=2026,5,15,21,27,35.292
+
+[IconsMode]
+IconSize=64
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PreviewSettings]
+Plugins=appimagethumbnail,windowsexethumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,imagethumbnail,glycin-heif,exrthumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,windowsimagethumbnail,glycin-svg,svgthumbnail,comicbookthumbnail,opendocumentthumbnail,directorythumbnail,djvuthumbnail,ffmpegthumbs,cursorthumbnail,fontthumbnail
+
+[UiSettings]
+ColorScheme=default

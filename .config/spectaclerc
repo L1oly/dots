@@ -1,0 +1,19 @@
+[Annotations]
+annotationToolType=3
+
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+rememberSelectionRect=Never
+useReleaseToCapture=true
+
+[ImageSave]
+imageFilenameTemplate=<dd>.<MM>.<yyyy>_<HH>.<mm>.<ss>
+lastImageSaveLocation=file:///home/l1oly/Картинки/Знімки вікон/30.05.2026_11.21.31.png
+translatedScreenshotsFolder=Знімки вікон
+
+[VideoSave]
+translatedScreencastsFolder=Трансляції з екрана
+
+[ViewerWindow]
+1920x1080 screen: Window-Maximized=true

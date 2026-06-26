@@ -1,0 +1,15 @@
+* {
+    --primary: {{colors.primary}};
+    --on-primary: {{colors.on_primary}};
+    --primary-container: {{colors.primary_container}};
+    --on-primary-container: {{colors.on_primary_container}};
+
+    --secondary: {{colors.secondary}};
+    --secondary-container: {{colors.secondary_container}};
+
+    --surface: {{colors.surface}};
+    --on-surface: {{colors.on_surface}};
+    --surface-variant: {{colors.surface_variant}};
+
+    --outline: {{colors.outline}};
+}

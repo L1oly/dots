@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "*": {
+      "backend": "mpv",
+      "source": "",
+      "mute": true,
+      "fps": 60
+    }
+  },
+  "web_backend": {
+    "port": 13999
+  }
+}

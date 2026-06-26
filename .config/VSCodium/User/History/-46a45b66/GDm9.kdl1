@@ -1,0 +1,8 @@
+prefer-no-csd
+
+include "autostart.kdl"
+include "environment.kdl"
+include "animations.kdl"
+include "window_rules.kdl"
+
+screenshot-path "~/Картинки/Знімки вікон/%d.%m.%Y_%H.%M.%S.png"

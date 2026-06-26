@@ -1,0 +1,13 @@
+### Quamachi v0.5.5: External
+
+# VNC GUI clients
+# Usage: <command> [arguments]
+# First valid entry is chosen
+
+# Changes effective upon restart
+
+#krdc
+vinagre
+gvncviewer
+#gnome-rdp
+vncviewer

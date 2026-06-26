@@ -1,0 +1,9 @@
+[Daemon]
+RequirePassword=false
+Timeout=30
+
+[Greeter]
+WallpaperPlugin=org.waywallen.kde
+
+[Greeter][Wallpaper][org.waywallen.kde][General]
+DisplayInstanceId=5c6400d2-2a8a-48d4-965c-7927f3105169

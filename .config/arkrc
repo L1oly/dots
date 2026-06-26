@@ -1,0 +1,10 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Завантажене/,$HOME/,$HOME/Стільниця/,$HOME/clang/gcc/,$HOME/Applications/clang/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+splitterSizes=802,113

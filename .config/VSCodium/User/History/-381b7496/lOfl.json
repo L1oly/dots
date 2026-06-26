@@ -1,0 +1,94 @@
+{
+    "dark": {
+        "mPrimary": "{{variants.dark.primary.hex}}",
+        "mOnPrimary": "{{variants.dark.on_primary.hex}}",
+        "mSecondary": "{{variants.dark.secondary.hex}}",
+        "mOnSecondary": "{{variants.dark.on_secondary.hex}}",
+        "mTertiary": "{{variants.dark.tertiary.hex}}",
+        "mOnTertiary": "{{variants.dark.on_tertiary.hex}}",
+        "mError": "{{variants.dark.error.hex}}",
+        "mOnError": "{{variants.dark.on_error.hex}}",
+        "mSurface": "{{variants.dark.surface.hex}}",
+        "mOnSurface": "{{variants.dark.on_surface.hex}}",
+        "mHover": "{{variants.dark.primary.hex}}",
+        "mOnHover": "{{variants.dark.on_primary.hex}}",
+        "mSurfaceVariant": "{{variants.dark.surface_variant.hex}}",
+        "mOnSurfaceVariant": "{{variants.dark.on_surface_variant.hex}}",
+        "mOutline": "{{variants.dark.outline.hex}}",
+        "mShadow": "{{variants.dark.shadow.hex}}",
+        "terminal": {
+            "background": "{{variants.dark.surface_container.hex}}",
+            "foreground": "{{variants.dark.on_surface.hex}}",
+            "cursor": "{{variants.dark.primary.hex}}",
+            "cursorText": "{{variants.dark.surface_container.hex}}",
+            "selectionBg": "{{variants.dark.primary.hex}}",
+            "selectionFg": "#ffffff",
+            "normal": {
+                "black": "{{variants.dark.surface_container.hex}}",
+                "red": "{{variants.dark.error.hex}}",
+                "green": "{{variants.dark.secondary.hex}}", 
+                "yellow": "{{variants.dark.tertiary.hex}}",
+                "blue": "{{variants.dark.primary.hex}}",
+                "magenta": "{{variants.dark.tertiary.hex}}",
+                "cyan": "{{variants.dark.primary_container.hex}}",
+                "white": "{{variants.dark.on_surface.hex}}"
+            },
+            "bright": {
+                "black": "{{variants.dark.outline.hex}}",
+                "red": "{{variants.dark.error_container.hex}}",
+                "green": "{{variants.dark.secondary_container.hex}}",
+                "yellow": "{{variants.dark.tertiary_container.hex}}",
+                "blue": "{{variants.dark.inverse_primary.hex}}",
+                "magenta": "{{variants.dark.on_tertiary_container.hex}}",
+                "cyan": "{{variants.dark.on_primary_container.hex}}",
+                "white": "#ffffff"
+            }
+        }
+    },
+    "light": {
+        "mPrimary": "{{variants.light.primary.hex}}",
+        "mOnPrimary": "{{variants.light.on_primary.hex}}",
+        "mSecondary": "{{variants.light.secondary.hex}}",
+        "mOnSecondary": "{{variants.light.on_secondary.hex}}",
+        "mTertiary": "{{variants.light.tertiary.hex}}",
+        "mOnTertiary": "{{variants.light.on_tertiary.hex}}",
+        "mError": "{{variants.light.error.hex}}",
+        "mOnError": "{{variants.light.on_error.hex}}",
+        "mSurface": "{{variants.light.surface.hex}}",
+        "mOnSurface": "{{variants.light.on_surface.hex}}",
+        "mHover": "{{variants.light.primary.hex}}",
+        "mOnHover": "{{variants.light.on_primary.hex}}",
+        "mSurfaceVariant": "{{variants.light.surface_variant.hex}}",
+        "mOnSurfaceVariant": "{{variants.light.on_surface_variant.hex}}",
+        "mOutline": "{{variants.light.outline.hex}}",
+        "mShadow": "{{variants.light.outline_variant.hex}}",
+        "terminal": {
+            "background": "{{variants.light.surface_container.hex}}",
+            "foreground": "{{variants.light.on_surface.hex}}",
+            "cursor": "{{variants.light.on_surface.hex}}",
+            "cursorText": "{{variants.light.surface_container.hex}}",
+            "selectionBg": "{{variants.light.on_surface.hex}}",
+            "selectionFg": "{{variants.light.surface_container.hex}}",
+            "normal": {
+                "black": "{{variants.light.on_surface.hex}}",
+                "red": "{{variants.light.error.hex}}",
+                "green": "{{variants.light.secondary.hex}}",
+                "yellow": "{{variants.light.tertiary.hex}}",
+                "blue": "{{variants.light.primary.hex}}",
+                "magenta": "{{variants.light.tertiary_container.hex}}",
+                "cyan": "{{variants.light.primary_container.hex}}",
+                "white": "{{variants.light.surface_variant.hex}}"
+            },
+            "bright": {
+                "black": "{{variants.light.outline.hex}}",
+                "red": "{{variants.light.error_container.hex}}",
+                "green": "{{variants.light.secondary_container.hex}}",
+                "yellow": "{{variants.light.tertiary_container.hex}}",
+                "blue": "{{variants.light.inverse_primary.hex}}",
+                "magenta": "{{variants.light.on_tertiary_container.hex}}",
+                "cyan": "{{variants.light.on_primary_container.hex}}",
+                "white": "{{variants.light.outline_variant.hex}}"
+            }
+        }
+    }
+}

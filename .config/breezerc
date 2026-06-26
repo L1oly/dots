@@ -1,0 +1,8 @@
+[Common]
+OutlineEnabled=true
+OutlineIntensity=OutlineMedium
+RoundedCorners=true
+ShadowSize=1
+
+[Style]
+MenuOpacity=100

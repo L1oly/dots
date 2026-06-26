@@ -1,0 +1,56 @@
+//======================================================================//
+//   ____ _____ _   _ _____ ____      _    _       _   _ ___ ____  ___  //
+//  / ___| ____| \ | | ____|  _ \    / \  | |     | \ | |_ _|  _ \|_ _| //
+// | |  _|  _| |  \| |  _| | |_) |  / _ \ | |     |  \| || || |_) || |  //
+// | |_| | |___| |\  | |___|  _ <  / ___ \| |___  | |\  || ||  _ < | |  //
+//  \____|_____|_| \_|_____|_| \_\/_/   \_\_____| |_| \_|___|_| \_\___| //
+//                                                                      //
+//======================================================================//
+
+overview {
+    zoom 0.5
+
+    workspace-shadow {
+        softness 40
+        spread 10
+        offset x=0 y=10
+    }
+}
+
+layout {
+    gaps 16
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width { 
+        proportion 0.5;
+    }
+
+    focus-ring {
+        off
+    }
+
+    border {
+        //off
+        width 2
+    }
+
+    // You can enable drop shadows for windows.
+    shadow {
+        on
+        softness 30
+        spread 5
+        offset x=0 y=5
+    }
+    struts
+}
+
+
+hotkey-overlay {
+    skip-at-startup
+}

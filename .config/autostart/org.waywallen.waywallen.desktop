@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Graphics;Qt;
+Comment[uk_UA]=Wallpaper manager for Wayland
+Comment=Wallpaper manager for Wayland
+Exec=waywallen --no-ui
+GenericName[uk_UA]=Wallpaper Manager for Linux
+GenericName=Wallpaper Manager for Linux
+Icon=org.waywallen.waywallen
+Keywords=wallpaper;pipewire;vulkan;
+MimeType=
+Name[uk_UA]=Waywallen
+Name=Waywallen
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

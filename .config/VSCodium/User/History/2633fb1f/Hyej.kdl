@@ -1,0 +1,43 @@
+//===============================//
+//  ___ _   _ ____  _   _ _____  //
+// |_ _| \ | |  _ \| | | |_   _| //
+//  | ||  \| | |_) | | | | | |   //
+//  | || |\  |  __/| |_| | | |   //
+// |___|_| \_|_|    \___/  |_|   //
+//                               //
+//===============================//
+
+input {
+    focus-follows-mouse
+    
+    keyboard {
+        xkb {
+
+            // layout "us,ru"
+            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
+
+            layout "us,ua"
+            options "grp:alt_shift_toggle"
+        }
+
+        numlock
+    }
+
+
+    touchpad {
+        // off
+        tap
+        // dwt
+        // dwtp
+        // drag false
+        // drag-lock
+        natural-scroll
+        // accel-speed 0.2
+        // accel-profile "flat"
+        // scroll-method "two-finger"
+        // disabled-on-external-mouse
+    }
+
+    mouse
+
+}

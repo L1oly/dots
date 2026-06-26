@@ -1,0 +1,13 @@
+
+#[macro_use]
+extern crate ini;
+
+fn bepinex_start(){
+    let map = ini!("options.ini");
+    let val = map["silksong_location"]["location"].clone().unwrap();
+}
+
+fn main() {
+    bepinex_start()
+
+}
