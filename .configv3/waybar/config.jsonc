@@ -1,0 +1,215 @@
+// -*- mode: jsonc -*-
+{
+    "locale": "uk_UA.UTF-8",
+    // Resident daemon preloads the DoodlebookOS Quick Settings and
+    // Notification Center windows, so the buttons below open instantly.
+    "exec-once": ["doodlebook-popover daemon"],
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    //  // Waybar height (to be removed for auto height)
+    "height": 35,
+    "margin": "4 4 0 4", 
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "niri/workspaces",
+        "custom/media"
+    ],
+    "modules-center": [
+        "clock",
+        "clock#date"
+    ],
+    "modules-right": [
+        "mpd",
+        "tray",
+//        "idle_inhibitor",
+        "bluetooth",
+        "wireplumber",
+        "network",
+//        "power-profiles-daemon",
+        "niri/language",
+//        "cpu",
+//        "memory",
+//        "temperature",
+//        "backlight",
+//        "keyboard-state",
+//        "battery",
+//        "battery#bat2",
+        "custom/quicksettings",
+        "custom/notifications"
+//        "custom/power"
+    ],
+    // Modules configuration
+    // "sway/workspaces": {
+    //     "disable-scroll": true,
+    //     "all-outputs": true,
+    //     "warp-on-scroll": false,
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+    // },
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 5,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+    "tray": {
+        //"icon-size": 16,
+        "spacing": 10,
+        "show-passive-items": true,
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:L%H:%M:%S}",
+        "on-click": "plasmawindowed org.kde.plasma.calendar",
+        "tooltip-format": "{:L%A, %d %B %Y}"
+    },
+    "clock#date": {
+        "interval": 1,
+        "format": "{:L%d %b}",
+        "on-click": "plasmawindowed org.kde.plasma.calendar",
+        "tooltip-format": "{:L%A, %d %B %Y}"
+    },
+    // DoodlebookOS Quick Settings — independent drawer
+    "custom/quicksettings": {
+        "tooltip": true,
+        "format": "{icon}",
+        "format-icons": {
+            "default": "󰒓"
+        },
+        "tooltip-format": "Quick Settings",
+        "on-click": "doodlebook-popover toggle quicksettings",
+        "on-click-right": "doodlebook-popover hide",
+        "escape": true
+    },
+    // DoodlebookOS Notification Center — independent drawer
+    "custom/notifications": {
+        "tooltip": true,
+        "format": "{icon}{text}",
+        "format-icons": {
+            "notification": "󱅫",
+            "none": "󰂜",
+            "dnd-notification": "󰂠",
+            "dnd-none": "󰪓",
+            "inhibited-notification": "󰂛",
+            "inhibited-none": "󰪑",
+            "dnd-inhibited-notification": "󰂛",
+            "dnd-inhibited-none": "󰪑"
+        },
+        "return-type": "json",
+        "exec": "doodlebook-popover status notifications",
+        "interval": 2,
+        "on-click": "doodlebook-popover toggle notifications",
+        "on-click-right": "doodlebook-popover hide",
+        "escape": true
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+        "tooltip-format": "{ifname} : {essid} ({signalStrength}%)",
+
+        "format-disabled": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+        "tooltip-format-disabled": "Wifi is OFF",
+
+        "format-disconnected": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span><span size='11pt' font_family='Material Icons Round'></span>",
+        "tooltip-format-disconnected": " Disconnected",
+
+        "on-click": "plasmawindowed org.kde.plasma.networkmanagement",
+        "on-click-right": "nmcli radio wifi | grep -q enabled && nmcli radio wifi off || nmcli radio wifi on"
+
+    },
+    "wireplumber": {
+        //"format-bluetooth": "{volume}% {icon}",
+        //"format-bluetooth-muted": " {icon}",
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>", "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>", "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>"]
+        },
+        "on-click": "plasmawindowed org.kde.plasma.volume",
+        "on-click-right": "swayosd-client --output-volume mute-toggle"
+    },
+    "bluetooth": {
+        "format-no-controller": "",
+        "format-disabled": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+        "format-on": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",  
+        "format-off": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+        "format-connected": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>", //con
+        "format-connected-battery": "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>{icon}{device_battery_percentage}%",
+        "format-icons": [
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>",
+            "<span size='13pt' font_family='Material Icons Round' rise='-4000'></span>" 
+        ],
+        "on-click": "plasmawindowed org.kde.plasma.bluetooth",
+        "on-click-right": "rfkill unblock bluetooth && bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+    }, 
+    "niri/language": {
+	    "format": "{}",
+	    "format-en": "EN",
+	    "format-uk": "UA"
+    },
+    "custom/media": {
+        "format": "{icon} {text}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    "niri/workspaces": {
+	    "format": "<span size='0000000000.1pt'>​</span>",
+	    "on-click": "activate",
+	    "sort-by-id": true
+    }
+
+}

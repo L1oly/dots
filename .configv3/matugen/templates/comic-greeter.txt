@@ -1,0 +1,5 @@
+Accent:               {{colors.inverse_primary.default.hex}}
+Background:           {{colors.background.default.hex}}
+Container backgroud:  {{colors.surface_container.default.hex}}
+Text:                 {{colors.on_surface.default.hex}}
+Buttons:              {{colors.surface_container.default.hex}}

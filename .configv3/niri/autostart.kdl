@@ -1,0 +1,31 @@
+//=========================================================//
+//     _   _   _ _____ ___    ____ _____  _    ____ _____  //
+//    / \ | | | |_   _/ _ \  / ___|_   _|/ \  |  _ \_   _| //
+//   / _ \| | | | | || | | | \___ \ | | / _ \ | |_) || |   //
+//  / ___ \ |_| | | || |_| |  ___) || |/ ___ \|  _ < | |   //
+// /_/   \_\___/  |_| \___/  |____/ |_/_/   \_\_| \_\|_|   //
+//                                                         //
+//=========================================================//
+
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri" "KDE_FULL_SESSION=true" "QT_QPA_PLATFORM=wayland" "QT_QPA_PLATFORMTHEME" "QT_QPA_PLATFORMTHEME_QT6"
+
+spawn-at-startup "systemctl" "--user" "import-environment" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP" "QT_QPA_PLATFORMTHEME" "QT_QPA_PLATFORMTHEME_QT6"
+
+spawn-at-startup "matugen" "image" "--source-color-index" "0" "$HOME/.wallpaper.png" "-m" "dark"
+spawn-at-startup "env" "DISPLAY=" "kded6"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+
+//spawn-at-startup "flatpak" "run" "org.waywallen.waywallen" "--no-ui"
+
+//spawn-at-startup "waybar"
+//spawn-at-startup "swayosd-server"
+
+spawn-at-startup "env" "DISPLAY=" "vibepanel"
+spawn-at-startup "env" "DISPLAY=" "waywallen" "--no-ui"
+
+spawn-at-startup "swayidle"
+spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
+spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
+spawn-at-startup "sway-audio-idle-inhibit"
+
+spawn-at-startup "kitty"

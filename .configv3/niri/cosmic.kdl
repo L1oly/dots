@@ -1,0 +1,5 @@
+//environment {
+//    XDG_SESSION_DESKTOP "COSMIC"
+//    XDG_CURRENT_DESKTOP "COSMIC"
+//}
+spawn-at-startup "cosmic-ext-alternative-startup"

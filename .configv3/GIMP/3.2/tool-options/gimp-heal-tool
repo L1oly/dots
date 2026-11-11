@@ -1,0 +1,18 @@
+# GIMP gimp-heal-tool options
+
+(foreground
+    (color "R'G'B'A u8" 4 "\0\252\206\377" 0))
+(background
+    (color "R'G'B'A u8" 4 "\16\61\53\377" 0))
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(pattern "Starfield")
+(palette "Standard")
+(brush-size 7)
+(brush-angle -180)
+(brush-spacing 2.23)
+(brush-hardness 0.5)
+(brush-force 1)
+(fade-length 91)
+
+# end of gimp-heal-tool options

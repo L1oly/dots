@@ -1,0 +1,171 @@
+//==============================================================================//
+// __        _____ _   _ ____   _____        __  ____  _   _ _     _____ ____   //
+// \ \      / /_ _| \ | |  _ \ / _ \ \      / / |  _ \| | | | |   | ____/ ___|  //
+//  \ \ /\ / / | ||  \| | | | | | | \ \ /\ / /  | |_) | | | | |   |  _| \___ \  //
+//   \ V  V /  | || |\  | |_| | |_| |\ V  V /   |  _ <| |_| | |___| |___ ___) | //
+//    \_/\_/  |___|_| \_|____/ \___/  \_/\_/    |_| \_\\___/|_____|_____|____/  //
+//                                                                              //
+//==============================================================================//
+
+window-rule {
+    geometry-corner-radius 16
+    clip-to-geometry true
+
+    exclude title="YouTube"
+    exclude title="Twitch"
+    exclude app-id="steam_app"
+    exclude app-id="cs2"
+    exclude app-id="qimgv"
+    exclude app-id="gimp"
+    exclude app-id="firefox" title="Зображення в зображенні"
+    exclude app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+
+    draw-border-with-background false
+    opacity 0.95
+
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 2
+    }
+    popups {
+        geometry-corner-radius 5
+        background-effect {
+            xray true
+            blur true
+            noise 0.05
+            saturation 2
+        }
+    }   
+}
+
+layer-rule {
+   match namespace="waybar"
+   match namespace="^vibepanel$" 
+   match namespace="vibepanel-.*-popover"
+   opacity 0.95
+   geometry-corner-radius 16
+
+   background-effect {
+       xray true
+       blur true
+       noise 0.05
+       saturation 2
+   }
+   place-within-backdrop true
+}
+
+layer-rule {
+    match namespace="^doodlebook-(quicksettings|notifications)$"
+    geometry-corner-radius 24
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 0.3
+    }
+    place-within-backdrop true
+}
+
+layer-rule {
+   match namespace="^vibepanel-osd$"
+   opacity 0.95
+   geometry-corner-radius 0
+
+   background-effect {
+       xray true
+       blur true
+       noise 0.05
+       saturation 2
+   }
+   place-within-backdrop true
+}
+
+layer-rule {
+   match namespace="launcher"
+   opacity 0.95
+   geometry-corner-radius 10
+
+   background-effect {
+       xray true
+       blur true
+       noise 0.05
+       saturation 2
+   }
+   place-within-backdrop true
+}
+
+window-rule {
+    match app-id=r#"firefox"#
+    open-maximized true
+}
+
+window-rule {
+    match app-id="cs2"
+    match app-id="steam_app"
+
+    open-fullscreen true
+}
+
+window-rule {
+    match app-id="org.kde.kcalc"
+    open-floating true
+    default-floating-position x=1467 y=61 relative-to="top-left"
+    default-column-width { fixed 415; }
+    default-window-height { fixed 415; }
+}
+
+window-rule {
+    match app-id="(xdg-desktop-portal)(.*)"
+    match app-id="filepicker"
+    match app-id="org.freedesktop.impl.portal.desktop.kde"
+    default-column-width { proportion 0.5; }
+    default-window-height { proportion 0.8; }
+    open-floating true
+    open-fullscreen false
+}
+
+window-rule {
+    match app-id="firefox" title="Зображення в зображенні"
+    open-floating true
+    default-column-width { proportion 0.3; }
+    default-window-height { proportion 0.311; }
+}
+
+window-rule {
+    match app-id="io.github.niri.screenshare.picker"
+    default-column-width { proportion 0.2; }
+    default-window-height { proportion 0.3; }
+    open-floating true
+    open-fullscreen false
+}
+
+window-rule {
+    geometry-corner-radius 4
+    open-focused false
+    match app-id="steam" title=r#"^notificationtoasts"#
+    default-floating-position x=1 y=1 relative-to="bottom-right"
+
+}
+
+window-rule {
+    match app-id="firefox"
+    popups {
+        geometry-corner-radius 27
+        opacity 1.0
+        background-effect {
+            xray false
+            blur false
+            noise 0.0
+            saturation 0.0
+        }
+    }   
+}
+
+window-rule {
+    match app-id="org.kde."
+    popups {
+        geometry-corner-radius 5
+    }
+}

@@ -1,0 +1,55 @@
+@import "colors.css";
+
+* {
+/*    font-size: 13px;
+/*    min-height: 0px;
+    min-width: 0px;*/
+}
+
+.custom-clock {
+    font-feature-settings: "tnum";
+    margin: 0px;
+    padding: 1px;
+    border-radius: 16px 5px 5px 16px;
+}
+
+.clock {
+    border-radius: 5px 16px 16px 5px;
+    margin: 0px 1px 0px 0px;
+}
+
+.media {
+    border-radius: 5px;
+}
+
+.bar {
+    background-color: @background;
+    color: @on_surface;
+    /*padding: 1px 1px;*/
+}
+
+.widget {
+    background-color: @on_secondary;
+    color: @on_surface;
+    padding: 0px 0px;
+}
+
+.workspace-indicator {
+    background-color: @on_secondary;
+    border-radius: 20px;
+    margin: 1px 2px;
+    padding: 2px 2px;
+}
+
+.workspace-indicator.occupied {
+    background-color: @inverse_primary;
+}
+
+.workspace-indicator.active {
+    background-color: @primary;
+    padding: 2px 8px;
+}
+
+.osd {
+  border-radius: 24px;
+}

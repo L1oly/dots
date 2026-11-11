@@ -1,0 +1,71 @@
+[bar]
+position = "top"        
+size = 26
+border_radius = 50
+background_opacity = 1.0 
+screen_margin = 4
+inset = 4
+spacing = 4
+popover_offset = 12
+padding = 4
+background_color = "{{colors.background.default.hex}}"
+
+[widgets]
+left = ["workspaces", ] 
+center = ["custom-clock", "media", "clock", ]
+right = [
+  "tray",
+  "updates",
+  "cpu",
+  "quick_settings",
+  "keyboard_layout", 
+  "notifications",
+]
+border_radius = 50
+background_opacity = 1.0
+
+
+[widgets.clock]
+format = "%d %b"
+
+[widgets.keyboard_layout]
+show_icon=false
+
+[widgets.quick_settings]
+vpn = false
+audio_scroll_percentage = 2
+
+[widgets.tray]
+pixmap_icon_size = 16
+
+[widgets.custom-clock]
+exec = "date '+%H:%M:%S'"
+interval = 1
+
+[theme]
+mode = "dark" # "auto", "dark", "light", "gtk"
+wallpaper = "~/.wallpaper.png"
+animations = true
+ripple = true
+blur = true
+shadows = false
+accent = "{{colors.inverse_primary.default.hex}}"
+
+[theme.typography]
+font_family = "Google Sans Flex" 
+font_scale = 0.7                  
+
+[theme.icons]
+theme = "material"  
+weight = 550          
+
+[osd]
+enabled = true
+position = "top"   
+show_value = false    
+
+[audio]
+allow_overdrive = true
+
+[advanced]
+compositor = "auto"  # "auto", "hyprland", "niri", "mango", "sway", "miracle", "scroll"

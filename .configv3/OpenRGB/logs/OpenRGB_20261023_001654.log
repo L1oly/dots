@@ -1,0 +1,202 @@
+    OpenRGB v1.1
+    Commit:  from 
+    Launched: 20261023_001654
+====================================================================================================
+
+[20        ][Info   ][NetworkClient] Connection attempt failed
+[71        ][Info   ][ProfileManager] Renamed legacy profile /home/l1oly/.config/OpenRGB/sizes.ors to /home/l1oly/.config/OpenRGB/sizes.ors.bak
+[72        ][Info   ][DetectionManager] Removing stale detector "Asus ROG STRIX PG32UCDM" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "CSB/ICL01 Keyboard" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Clevo Keyboard" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Gamepower Ogre RGB 0C45:7672" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C1 Pro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C1 Pro 8K" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C1 Pro V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C2 Pro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C2 Pro 8K" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C2 Pro V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C3 Pro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron C3 Pro 8K" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K0 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K1 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K1 V6" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K10 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K10 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K10 V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K11 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K13 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K15 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K17 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K2 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K2 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K2 V3" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K3 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K3 V3" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K4 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K4 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K4 V3" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K5 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K5 V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K6 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K7 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K8 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K8 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K8 Pro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K8 V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron K9 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q0" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q0 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q0 Plus" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q1 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q1 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q1 V1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q1 V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q10" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q10 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q11" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q12" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q12 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q12 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q13 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q14 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q15 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q2 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q2 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q3" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q3 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q3 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q4" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q4 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q5" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q5 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q5 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q6" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q6 HE" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q6 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q60 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q65 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q7" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q8" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q8 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q9" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron Q9 Plus" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron S1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V1 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V10" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V10 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V2 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V3" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V3 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V4" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V4 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V5" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V5 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V6" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V6 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V6 V2" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V7" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V8" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Keychron V8 Max" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G Pro RGB Mechanical Gaming Keyboard" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G512" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G512 RGB" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G560 Lightsync Speaker" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G610 Orion" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G810 Orion Spectrum" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G910 Orion Spark" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech G910 Orion Spectrum" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G502 X Plus (wired)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G502 X Plus (wireless)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G515 LS TKL (wired)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G515 LS TKL (wireless)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G522 Lightspeed (dongle)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Logitech HID++ 2.0 G522 Lightspeed (wired)" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Nollie 16_OS2.1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Nollie 1_OS2.1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Nollie 32_OS2.1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Nollie 8_OS2.1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3060 Ti Dual" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3070 Gamerock LHR" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3070 Ti GamingPro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3080 12GB GamingPro" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3080 Gamerock" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3080 Gamerock LHR" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Palit GeForce RTX 3080 Ti Gamerock" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Prism 8_OS2.1" from settings
+[72        ][Info   ][DetectionManager] Removing stale detector "Red Square Keyrox TKL Classic" from settings
+[73        ][Info   ][DetectionManager] Saving detector settings
+[74        ][Info   ]------------------------------------------------------
+[74        ][Info   ]|               Start device detection               |
+[74        ][Info   ]------------------------------------------------------
+[82        ][Info   ]------------------------------------------------------
+[82        ][Info   ]|             Detecting I2C interfaces               |
+[82        ][Info   ]------------------------------------------------------
+[82        ][Info   ][DetectionManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-3) Device 8086:43A3 Subsystem: 1043:8694
+[82        ][Info   ][DetectionManager] Registering I2C interface: NVIDIA GPU I2C adapter (/dev/i2c-2) Device 10DE:1AED Subsystem: 1043:873A
+[82        ][Info   ][DetectionManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 8086:43E8 Subsystem: 1043:8694
+[82        ][Info   ]------------------------------------------------------
+[82        ][Info   ]|               Detecting I2C devices                |
+[82        ][Info   ]------------------------------------------------------
+[178       ][Info   ][OpenRGBDialog] Migrated legacy AutoStart and profile settings
+[296       ][Info   ]------------------------------------------------------
+[296       ][Info   ]|            Detecting I2C DRAM modules              |
+[296       ][Info   ]------------------------------------------------------
+[598       ][Info   ][DetectionManager] Detected occupied slot 2, bus 0, type DDR4
+[1099      ][Info   ][DetectionManager] Detected occupied slot 4, bus 0, type DDR4
+[1564      ][Info   ]------------------------------------------------------
+[1564      ][Info   ]|               Detecting I2C PCI devices            |
+[1564      ][Info   ]------------------------------------------------------
+[1566      ][Info   ]------------------------------------------------------
+[1566      ][Info   ]|               Detecting HID devices                |
+[1566      ][Info   ]------------------------------------------------------
+[1620      ][Info   ][KLM] Created new Seventy Five percent ANSI QWERTY with 6 rows and 14 columns containing 74 keys
+[1620      ][Info   ][DetectionManager] Registering RGB controller AULA F75
+[1712      ][Info   ][DetectionManager] Registering RGB controller ASUS PRIME B560M-A
+[1714      ][Info   ]------------------------------------------------------
+[1714      ][Info   ]|            Detecting libusb HID devices            |
+[1714      ][Info   ]------------------------------------------------------
+[1738      ][Info   ]------------------------------------------------------
+[1738      ][Info   ]|              Detecting other devices               |
+[1738      ][Info   ]------------------------------------------------------
+[1923      ][Info   ]------------------------------------------------------
+[1923      ][Info   ]|                Detection completed                 |
+[1923      ][Info   ]------------------------------------------------------
+[50626     ][Info   ]------------------------------------------------------
+[50626     ][Info   ]|               Start device detection               |
+[50627     ][Info   ]------------------------------------------------------
+[50632     ][Info   ]------------------------------------------------------
+[50633     ][Info   ]|             Detecting I2C interfaces               |
+[50633     ][Info   ]------------------------------------------------------
+[50633     ][Info   ][DetectionManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-3) Device 8086:43A3 Subsystem: 1043:8694
+[50633     ][Info   ][DetectionManager] Registering I2C interface: NVIDIA GPU I2C adapter (/dev/i2c-2) Device 10DE:1AED Subsystem: 1043:873A
+[50633     ][Info   ][DetectionManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 8086:43E8 Subsystem: 1043:8694
+[50633     ][Info   ]------------------------------------------------------
+[50633     ][Info   ]|               Detecting I2C devices                |
+[50633     ][Info   ]------------------------------------------------------
+[50848     ][Info   ]------------------------------------------------------
+[50849     ][Info   ]|            Detecting I2C DRAM modules              |
+[50849     ][Info   ]------------------------------------------------------
+[51152     ][Info   ][DetectionManager] Detected occupied slot 2, bus 0, type DDR4
+[51649     ][Info   ][DetectionManager] Detected occupied slot 4, bus 0, type DDR4
+[52115     ][Info   ]------------------------------------------------------
+[52115     ][Info   ]|               Detecting I2C PCI devices            |
+[52115     ][Info   ]------------------------------------------------------
+[52116     ][Info   ]------------------------------------------------------
+[52116     ][Info   ]|               Detecting HID devices                |
+[52116     ][Info   ]------------------------------------------------------
+[52170     ][Info   ][KLM] Created new Seventy Five percent ANSI QWERTY with 6 rows and 14 columns containing 74 keys
+[52170     ][Info   ][DetectionManager] Registering RGB controller AULA F75
+[52259     ][Info   ][DetectionManager] Registering RGB controller ASUS PRIME B560M-A
+[52261     ][Info   ]------------------------------------------------------
+[52261     ][Info   ]|            Detecting libusb HID devices            |
+[52261     ][Info   ]------------------------------------------------------
+[52275     ][Info   ]------------------------------------------------------
+[52275     ][Info   ]|              Detecting other devices               |
+[52275     ][Info   ]------------------------------------------------------
+[52416     ][Info   ]------------------------------------------------------
+[52416     ][Info   ]|                Detection completed                 |
+[52416     ][Info   ]------------------------------------------------------
+[3191199   ][Info   ][DetectionManager] Cleaning up detected devices

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "arch_small",
+    "padding": {
+      "top": 2,
+      "left": 4
+    }
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "key": "┌  "
+    },
+    {
+      "type": "os",
+      "key": "├  ",
+      "format": "{name} {version-id}"      
+    },
+     {
+      "type": "kernel",
+      "key": "├  ",
+      "format": "{sysname} {release}"  
+    },
+    {
+      "type": "packages",
+      "key": "└ 󰏗 "      
+    },
+    "break",
+    {
+      "type": "board",
+      "format": "{vendor} {name}",
+      "key": "┌  "
+    },
+    {
+      "type": "cpu",
+      "key": "├  ",
+      "showPeCoreCount": true,
+      "temp": true,
+      "format": "{name} {#2}({cores-online}) {#0}[{temperature}]"
+    },
+    {
+      "type": "gpu",
+      "key": "├ 󰢮 ",
+      "driverSpecific": true,
+      "temp": true,
+      "format": "{name} {#2}{dedicated-used} / {dedicated-total} {#0}({core-usage-num}) [{temperature}]"
+    },
+    {
+      "type": "memory",
+      "key": "├  ",
+      "format": "{#2}{used} / {total} {#0}({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "└ 󰋊 ",
+      "format": "{?is-external}{#3}{mount-from} {#0}| {?}{#1}{mountpoint} {#0}: {#2}{size-used} / {size-total} {#0}({size-percentage})"
+    }
+  ]
+}

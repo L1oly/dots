@@ -1,0 +1,79 @@
+/**
+ * @name Matugen Discord
+ * @description Default Discord layout, recolored with your Matugen (Material You) palette.
+ * @author you
+ * @version 1.0
+ *
+ * This file is a MATUGEN TEMPLATE, not plain CSS.
+ * Matugen will render the {{ }} placeholders into real hex values
+ * every time it regenerates colors from your wallpaper.
+ *
+ * Setup:
+ * 1. Save this file as ~/.config/matugen/templates/discord.css
+ * 2. Add the [templates.discord] block below to ~/.config/matugen/config.toml
+ * 3. Point the "output" path at your Vencord themes folder (see notes at bottom)
+ * 4. Run `matugen image /path/to/wallpaper.jpg` (or however you trigger matugen)
+ * 5. Enable "discord.css" in Vencord Settings -> Themes
+ */
+
+:root {
+    /* === Core surfaces === */
+    --background-primary: {{colors.surface.dark.hex}};
+    --background-secondary: {{ colors.surface_container.dark.hex }};
+    --background-secondary-alt: {{ colors.surface_container_low.dark.hex }};
+    --background-tertiary: {{ colors.surface_container_lowest.dark.hex }};
+    --background-accent: {{ colors.primary.dark.hex }};
+    --background-floating: {{ colors.surface_container_high.dark.hex }};
+    --background-mobile-primary: {{ colors.surface.dark.hex }};
+    --background-mobile-secondary: {{ colors.surface_container.dark.hex }};
+
+    /* Modals, popouts, message hover */
+    --background-modifier-hover: {{ colors.surface_container_high.dark.hex }}66;
+    --background-modifier-active: {{ colors.surface_container_highest.dark.hex }}88;
+    --background-modifier-selected: {{ colors.surface_container_highest.dark.hex }};
+    --background-modifier-accent: {{ colors.outline.dark.hex }}55;
+
+    /* === Text === */
+    --text-normal: {{ colors.on_surface.dark.hex }};
+    --text-muted: {{ colors.on_surface_variant.dark.hex }};
+    --header-primary: {{ colors.on_surface.dark.hex }};
+    --header-secondary: {{ colors.on_surface_variant.dark.hex }};
+    --interactive-normal: {{ colors.on_surface_variant.dark.hex }};
+    --interactive-hover: {{ colors.on_surface.dark.hex }};
+    --interactive-active: {{ colors.primary.dark.hex }};
+    --interactive-muted: {{ colors.outline.dark.hex }};
+
+    /* === Brand / accent (replaces Discord blurple) === */
+    --brand-experiment: {{ colors.primary.dark.hex }};
+    --brand-experiment-560: {{ colors.primary.dark.hex }};
+    --brand-experiment-600: {{ colors.primary.dark.hex }};
+    --text-link: {{ colors.primary.dark.hex }};
+
+    /* === Channel textarea / chat box === */
+    --channeltextarea-background: {{ colors.surface_container_high.dark.hex }};
+
+    /* === Buttons === */
+    --button-primary-background: {{ colors.primary.dark.hex }};
+    --button-primary-background-hover: {{ colors.primary_container.dark.hex }};
+    --button-secondary-background: {{ colors.surface_container_highest.dark.hex }};
+
+    /* === Status colors (kept close to Discord defaults for clarity) === */
+    --status-danger: {{ colors.error.dark.hex }};
+    --status-positive: #23a55a;
+    --status-warning: #f0b232;
+
+    /* === Scrollbar === */
+    --scrollbar-thin-thumb: {{ colors.outline.dark.hex }};
+    --scrollbar-auto-thumb: {{ colors.outline.dark.hex }};
+    --scrollbar-auto-track: {{ colors.surface.dark.hex }};
+
+    /* === Mentions / unread pill accent === */
+    --mention-foreground: {{ colors.on_primary_container.dark.hex }};
+    --mention-background: {{ colors.primary_container.dark.hex }}55;
+}
+
+/* Server pill accent on hover/active — small default-layout-friendly touch */
+.wrapper_c2c6f9 .pill_c2c6f9,
+.wrapper__46e5f .pill__46e5f {
+    background-color: {{ colors.primary.dark.hex }} !important;
+}

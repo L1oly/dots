@@ -1,0 +1,73 @@
+    OpenRGB v1.1
+    Commit:  from 
+    Launched: 20261023_011017
+====================================================================================================
+
+[1         ][Info   ][NetworkClient] Connection attempt failed
+[54        ][Info   ]------------------------------------------------------
+[54        ][Info   ]|               Start device detection               |
+[54        ][Info   ]------------------------------------------------------
+[61        ][Info   ]------------------------------------------------------
+[61        ][Info   ]|             Detecting I2C interfaces               |
+[61        ][Info   ]------------------------------------------------------
+[61        ][Info   ][DetectionManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-3) Device 8086:43A3 Subsystem: 1043:8694
+[61        ][Info   ][DetectionManager] Registering I2C interface: NVIDIA GPU I2C adapter (/dev/i2c-2) Device 10DE:1AED Subsystem: 1043:873A
+[61        ][Info   ][DetectionManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 8086:43E8 Subsystem: 1043:8694
+[61        ][Info   ]------------------------------------------------------
+[61        ][Info   ]|               Detecting I2C devices                |
+[61        ][Info   ]------------------------------------------------------
+[279       ][Info   ]------------------------------------------------------
+[279       ][Info   ]|            Detecting I2C DRAM modules              |
+[279       ][Info   ]------------------------------------------------------
+[586       ][Info   ][DetectionManager] Detected occupied slot 2, bus 0, type DDR4
+[1089      ][Info   ][DetectionManager] Detected occupied slot 4, bus 0, type DDR4
+[1558      ][Info   ]------------------------------------------------------
+[1558      ][Info   ]|               Detecting I2C PCI devices            |
+[1558      ][Info   ]------------------------------------------------------
+[1561      ][Info   ]------------------------------------------------------
+[1561      ][Info   ]|               Detecting HID devices                |
+[1561      ][Info   ]------------------------------------------------------
+[1685      ][Info   ][DetectionManager] Registering RGB controller ASUS PRIME B560M-A
+[1692      ][Info   ]------------------------------------------------------
+[1692      ][Info   ]|            Detecting libusb HID devices            |
+[1692      ][Info   ]------------------------------------------------------
+[1712      ][Info   ]------------------------------------------------------
+[1712      ][Info   ]|              Detecting other devices               |
+[1712      ][Info   ]------------------------------------------------------
+[1884      ][Info   ]------------------------------------------------------
+[1884      ][Info   ]|                Detection completed                 |
+[1884      ][Info   ]------------------------------------------------------
+[6155      ][Info   ]------------------------------------------------------
+[6155      ][Info   ]|               Start device detection               |
+[6155      ][Info   ]------------------------------------------------------
+[6161      ][Info   ]------------------------------------------------------
+[6161      ][Info   ]|             Detecting I2C interfaces               |
+[6161      ][Info   ]------------------------------------------------------
+[6161      ][Info   ][DetectionManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-3) Device 8086:43A3 Subsystem: 1043:8694
+[6161      ][Info   ][DetectionManager] Registering I2C interface: NVIDIA GPU I2C adapter (/dev/i2c-2) Device 10DE:1AED Subsystem: 1043:873A
+[6161      ][Info   ][DetectionManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 8086:43E8 Subsystem: 1043:8694
+[6161      ][Info   ]------------------------------------------------------
+[6161      ][Info   ]|               Detecting I2C devices                |
+[6161      ][Info   ]------------------------------------------------------
+[6380      ][Info   ]------------------------------------------------------
+[6380      ][Info   ]|            Detecting I2C DRAM modules              |
+[6380      ][Info   ]------------------------------------------------------
+[6686      ][Info   ][DetectionManager] Detected occupied slot 2, bus 0, type DDR4
+[7181      ][Info   ][DetectionManager] Detected occupied slot 4, bus 0, type DDR4
+[7646      ][Info   ]------------------------------------------------------
+[7646      ][Info   ]|               Detecting I2C PCI devices            |
+[7646      ][Info   ]------------------------------------------------------
+[7648      ][Info   ]------------------------------------------------------
+[7648      ][Info   ]|               Detecting HID devices                |
+[7648      ][Info   ]------------------------------------------------------
+[7721      ][Info   ][DetectionManager] Registering RGB controller ASUS PRIME B560M-A
+[7727      ][Info   ]------------------------------------------------------
+[7727      ][Info   ]|            Detecting libusb HID devices            |
+[7727      ][Info   ]------------------------------------------------------
+[7741      ][Info   ]------------------------------------------------------
+[7741      ][Info   ]|              Detecting other devices               |
+[7741      ][Info   ]------------------------------------------------------
+[7874      ][Info   ]------------------------------------------------------
+[7874      ][Info   ]|                Detection completed                 |
+[7874      ][Info   ]------------------------------------------------------
+[25739802  ][Info   ][DetectionManager] Cleaning up detected devices

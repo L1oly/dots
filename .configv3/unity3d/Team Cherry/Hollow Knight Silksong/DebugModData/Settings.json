@@ -1,0 +1,25 @@
+{
+  "binds": {
+    "CHEATS_INFINITEHP": "F3",
+    "CHEATS_INFINITEJUMP": "F4",
+    "CHEATS_KILLALL": "F7",
+    "CHEATS_NOCLIP": "F10",
+    "MODUI_TOGGLEALLUI": "F2"
+  },
+  "LastLoadedPack": "",
+  "MainPanelCurrentTab": "MAINPANEL_TAB_GAMEPLAY",
+  "ShowHitBoxes": 1,
+  "ShowCursorWhileUnpaused": true,
+  "MainPanelVisible": false,
+  "EnemiesPanelVisible": false,
+  "ConsoleVisible": false,
+  "InfoPanelVisible": false,
+  "SaveStatePanelVisible": false,
+  "SaveStatePanelExpanded": false,
+  "LogUnityExceptions": true,
+  "NoClipSpeedModifier": 1.0,
+  "AltInfoPanel": false,
+  "ExpandedInfoPanel": false,
+  "NumPadForSaveStates": false,
+  "SafeSaveStateLoading": false
+}

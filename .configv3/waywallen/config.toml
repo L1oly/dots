@@ -1,0 +1,111 @@
+[global]
+last_wallpaper = "7597"
+queue_mode = "sequential"
+rotation_secs = 0
+audio_fade_ms = 500
+mute_when_other_audio = false
+audio_capture_enabled = true
+manual_muted = false
+wallpaper_filter_json = '{"filters":[],"filter_logics":[]}'
+wallpaper_sorts = []
+wallpaper_skip_types = []
+wallpaper_filter_tags = []
+wallpaper_skip_content_ratings = []
+wallpaper_hidden_filter = "exclude"
+wallpaper_hidden_library_ids = []
+plugin_update_notifications = true
+duplicate_renderers_for_same_wallpaper = false
+pointer_forwarding_enabled = true
+autostart_enabled = false
+hide_tray_icon = false
+debug_logging_enabled = false
+
+[global.renderer]
+enable_audio = true
+volume = 100
+
+[global.layout]
+fillmode = "preserve_aspect_crop"
+align = "center"
+rotation = "normal"
+
+[global.layout.location]
+x = 50
+y = 50
+
+[global.auto_replay]
+any_window_scope = "current_display"
+focused_scope = "current_display"
+maximized_scope = "current_display"
+fullscreen_scope = "current_display"
+any_window = "none"
+focused = "none"
+maximized = "none"
+fullscreen = "pause"
+session_locked = "stop"
+session_inactive = "stop"
+gamemode = "none"
+on_battery = "none"
+resume_delay_ms = 250
+
+[global.auto_replay.window_exclusions]
+application_ids = []
+titles = []
+application_id_patterns = []
+title_patterns = []
+
+[global.pause_effect]
+kind = "none"
+
+[global.pause_effect.blur]
+radius = 30
+
+[global.transition]
+kind = "none"
+duration_ms = 500
+angle = 0
+
+[global.transition.origin]
+x = 50
+y = 50
+
+[plugin.waywallen-image]
+render_node = ""
+custom_extent = "1080"
+fps = "30"
+resolution = "0"
+
+[plugin.weweb-renderer]
+fps = "30"
+remote_debugging_port = "0"
+enable_audio = "true"
+resolution = "2"
+volume = "100"
+render_node = ""
+shared_texture_enabled = "true"
+custom_extent = "1080"
+
+[plugin.waywallen-video]
+enable_audio = "true"
+custom_extent = "1080"
+fps = "30"
+volume = "100"
+resolution = "0"
+loop_file = "inf"
+render_node = ""
+hwdec = "auto"
+
+[plugin.wescene-renderer]
+volume = "100"
+enable_audio = "true"
+hwdec = "auto"
+render_node = ""
+msaa = "1"
+fps = "30"
+custom_extent = "1080"
+resolution = "2"
+
+[display.layer-2282d5cfc9a5523a598234914ab7e011]
+last_wallpaper = "7597"
+
+[canvas]

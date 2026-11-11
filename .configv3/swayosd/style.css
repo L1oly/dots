@@ -1,0 +1,42 @@
+@import "colors.css";
+
+window#osd  {
+  border-radius: 28px;
+  border: 1px solid alpha(@primary, 0.6);
+  background: @background; 
+}
+
+progress {
+  border: none;
+  background: @inverse_primary;
+  margin: 3px;
+  padding: 7px 0px;
+  border-radius: 16px;
+}
+trough {
+  border: none;
+  background: @on_secondary;
+  padding: 11px 1px;
+  border-radius: 16px;
+}
+
+label, image {
+  color: @on_surface;
+  background:@on_secondary;
+  border-radius: 16px;
+  margin: -3px;
+}
+
+label {
+  font-feature-settings: "tnum";
+  font-size: 14px;
+}
+
+image {
+  padding: 0px;
+  -gtk-icon-transform: scale(0.5);
+}
+
+progressbar:disabled{
+    opacity: 0.7; 
+}

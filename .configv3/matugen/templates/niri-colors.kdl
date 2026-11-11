@@ -1,0 +1,33 @@
+layout {
+	background-color "transparent"
+
+    focus-ring {
+        active-color "{{colors.primary.default.hex_stripped}}99"
+        inactive-color "{{colors.outline.default.hex_stripped}}99"
+        urgent-color   "{{colors.error.default.hex_stripped}}99"
+    }
+
+    border {
+        active-color   "{{colors.primary.default.hex_stripped}}99"
+        inactive-color "{{colors.outline.default.hex_stripped}}99"
+        urgent-color   "{{colors.error.default.hex_stripped}}99"
+    }
+
+    shadow {
+        color "{{colors.shadow.default.hex_stripped}}70"
+    }
+
+    tab-indicator {
+        active-color   "{{colors.primary.default.hex_stripped}}99"
+        inactive-color "{{colors.outline.default.hex_stripped}}99"
+        urgent-color   "{{colors.error.default.hex_stripped}}99"
+    }
+
+    insert-hint {
+        color "{{colors.primary.default.hex_stripped}}80"
+    }
+}
+
+overview {
+	backdrop-color "{{colors.background.default.hex_stripped}}99"
+}

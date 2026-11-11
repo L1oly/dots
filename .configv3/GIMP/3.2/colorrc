@@ -1,0 +1,24 @@
+# GIMP colorrc
+# 
+# This file holds a list of recently used colors.
+
+(color-history
+    (color "R'G'B'A u8" 4 "\0\252\206\377" 0)
+    (color "R'G'B'A u8" 4 "\11\74\63\377" 0)
+    (color "R'G'B'A u8" 4 "\3\250\206\377" 0)
+    (color "R'G'B'A u8" 4 "\16\57\50\377" 0)
+    (color "R'G'B'A u8" 4 "\20\55\50\377" 0)
+    (color "R'G'B'A u8" 4 "\21\52\46\377" 0)
+    (color "R'G'B'A u8" 4 "\22\50\45\377" 0)
+    (color "R'G'B'A u8" 4 "\16\61\53\377" 0)
+    (color "R'G'B'A u8" 4 "\16\63\54\377" 0)
+    (color "R'G'B'A u8" 4 "\13\72\62\377" 0)
+    (color "R'G'B'A u8" 4 "\7\217q\377" 0)
+    (color "R'G'B'A u8" 4 "\12\71\61\377" 0)
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0)
+    (color "R'G'B'A float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0)
+    (color "HSV float" 12 "\244\17\44\77\225\203\310\76\62\60\217\76" 0)
+    (color "HSVA float" 16 "\0\0\0\0d\22P\77\134\354y\77\0\0\200\77" 0)
+    (color "HSV float" 12 "\23\21\76\77\0\0\200\77\0\0\200\77" 0))
+
+# end of colorrc
